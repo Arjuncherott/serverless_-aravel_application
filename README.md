@@ -1,2 +1,2 @@
-# serverless_-aravel_application
+# serverless_laravel_application
 Deploying a Serverless Laravel Application in AWS using Bref
