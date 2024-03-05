@@ -3,6 +3,9 @@ Deploying a Serverless Laravel Application in AWS using Bref
 
 Serverless deployment is a new service that AWS is offering to help face the challenge of scaling applications, expenses etc. Developers who want to decrease their go-to-market time and build lightweight, flexible applications that can be expanded or updated quickly, benefit greatly from serverless computing. It offers greater scalability, more flexibility, and quicker time to release, all at a reduced cost.
 
+What is Bref?
+Bref (which means "brief" in french) comes as an open source Composer package and helps you deploy PHP applications to AWS and run them on AWS Lambda.
+
 Advantages:
 
 · No server management is necessary
