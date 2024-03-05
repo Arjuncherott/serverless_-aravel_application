@@ -151,4 +151,7 @@ So copy and paste below section in boot method of app/Providers/AppServiceProvid
 
 11. After that, we’re ready to deploy.
 
-serverless deploy
+    serverless deploy
+
+
+Once you have deployed your Laravel application using the Serverless Framework, you can access it through the API Gateway URL that was generated during the deployment process. This URL acts as the entry point to your application.
