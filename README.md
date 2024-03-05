@@ -98,21 +98,21 @@ package:
         - tests/**
  
 functions:
-    # This function runs the Laravel website/API
+     This function runs the Laravel website/API
     web:
         handler: public/index.php
-        timeout: 28 # in seconds (API Gateway has a timeout of 29 seconds)
+        timeout: 28  in seconds (API Gateway has a timeout of 29 seconds)
         layers:
             - ${bref:layer.php-81}
         events:
             -   httpApi: '*' 
-    # This function lets us run artisan commands in Lambda
+     This function lets us run artisan commands in Lambda
     artisan:
         handler: artisan
-        timeout: 120 # in seconds
+        timeout: 120  in seconds
         layers:
-            - ${bref:layer.php-81} # PHP
-            - ${bref:layer.console} # The "console" layer
+            - ${bref:layer.php-81}  PHP
+            - ${bref:layer.console}  The "console" layer
  
 plugins:
     # We need to include the Bref plugin
